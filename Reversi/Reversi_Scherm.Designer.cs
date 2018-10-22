@@ -57,6 +57,7 @@
             this.panel_speelveld.Name = "panel_speelveld";
             this.panel_speelveld.Size = new System.Drawing.Size(401, 401);
             this.panel_speelveld.TabIndex = 2;
+            this.panel_speelveld.Click += new System.EventHandler(this.panel_speelveld_Click);
             this.panel_speelveld.Paint += new System.Windows.Forms.PaintEventHandler(this.panel_speelveld_Paint);
             // 
             // reversi_scherm
