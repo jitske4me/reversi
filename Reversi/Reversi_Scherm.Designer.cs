@@ -41,6 +41,7 @@
             this.nieuw_spel.TabIndex = 0;
             this.nieuw_spel.Text = "Nieuw Spel";
             this.nieuw_spel.UseVisualStyleBackColor = true;
+            this.nieuw_spel.MouseClick += new System.Windows.Forms.MouseEventHandler(this.nieuw_spel_MouseClick);
             // 
             // help
             // 
@@ -57,8 +58,8 @@
             this.panel_speelveld.Name = "panel_speelveld";
             this.panel_speelveld.Size = new System.Drawing.Size(401, 401);
             this.panel_speelveld.TabIndex = 2;
-            this.panel_speelveld.Click += new System.EventHandler(this.panel_speelveld_Click);
             this.panel_speelveld.Paint += new System.Windows.Forms.PaintEventHandler(this.panel_speelveld_Paint);
+            this.panel_speelveld.MouseClick += new System.Windows.Forms.MouseEventHandler(this.panel_speelveld_MouseClick);
             // 
             // reversi_scherm
             // 

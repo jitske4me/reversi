@@ -10,8 +10,14 @@ namespace Reversi
 {
     class Program
     {
+
         static void Main(string[] args)
         {
+            int turn;
+            Random rnd = new Random();
+            turn = rnd.Next(1, 2);
+            Console.WriteLine(turn);
+
             reversi_scherm scherm = new reversi_scherm();
             Application.Run(scherm);
         }
