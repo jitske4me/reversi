@@ -51,6 +51,7 @@
             this.help.TabIndex = 1;
             this.help.Text = "Ik heb hulp nodig!";
             this.help.UseVisualStyleBackColor = true;
+            this.help.MouseClick += new System.Windows.Forms.MouseEventHandler(this.help_MouseClick);
             // 
             // panel_speelveld
             // 
